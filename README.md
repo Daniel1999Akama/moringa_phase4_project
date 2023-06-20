@@ -27,7 +27,7 @@ As a consulting firm, Twitter has assigned us the task of building a model that 
 
 
 # Data understanding
-In this project, we analyze sentiment using a dataset of customer reviews collected from Twitter. The dataset contains a collection of text reviews and corresponding sentiment labels indicating whether the sentiment expressed in the review is positive, negative, or neutral. The dataset consists of [] number of samples and [] number of features.
+In this project, we analyze sentiment using a dataset of customer reviews collected from Twitter. The dataset contains a collection of text reviews and corresponding sentiment labels indicating whether the sentiment expressed in the review is positive, negative, or neutral. The dataset consists of 9093 rows and 3 columns.
 
 To gain a better understanding of the data, we performed the following steps:
 
@@ -58,9 +58,9 @@ a. Bag-of-Words (CountVectorizer): We used sklearn's CountVectorizer to convert 
 
 b. Classification Models: We trained and evaluated several classification models using the vectorized data, including:
 
-Multinomial Naive Bayes
-XGBoost 
-Logistic Regression Classifier
+1.Logistic Regression Classifier for the binary classifier model
+2.Multinomial Naive Bayes and XGBoost model for the multiclass classification model 
+
 c. Model Evaluation: For each model, we employed cross-validation techniques to assess its performance. We measured key evaluation metrics such as accuracy, precision, recall, and F1 score to evaluate the model's ability to correctly predict sentiment.
 
 d. Handling Class Imbalance: As sentiment analysis datasets often suffer from class imbalance, we addressed this issue by employing techniques such as oversampling the minority class using Synthetic Minority Random Under-sampling
@@ -70,9 +70,14 @@ e. resample of XGBoost (add this from notebook)
 
 # Evaluation
 To evaluate the performance of our NLP sentiment analysis model, we conducted thorough testing and analysis using various evaluation metrics. The following evaluation results provide insights into the effectiveness of our approach:
-* Accuracy: Our sentiment analysis model achieved an overall accuracy of yetu%, indicating that it correctly classified yetu% of the sentiment labels in the test dataset.
+* Accuracy:
+1. Our binary sentiment analysis model achieved an overall accuracy of 90% which surpused our trget of achieving 85%.
+2. our MultinomialNb multiclass model achieved an overall accuracy of
+3. our XGboost multiclass model achieved an overall accuracy of 
 
-Image (ANY eda Image)
+Image 
+![image](https://github.com/Daniel1999Akama/moringa_phase4_project/assets/96378206/158e9d2a-3fe3-4f45-ab69-3831220f3aae)
+No emotion towards brand had the highest value count 
 
 # Conclusion
 In summary, our NLP model for Twitter sentiment analysis of Apple and Google products provides valuable insights for businesses. It categorizes sentiments as positive, negative, or neutral, helping understand public perception, monitor customer satisfaction, and make informed business decisions.The binary logisitc regression model performs best and is fit to be deployed.
