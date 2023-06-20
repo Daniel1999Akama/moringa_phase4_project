@@ -37,7 +37,7 @@ Data Visualization: We used various visualization techniques, such as bar plots,
 The objective of this project is to develop a sentiment analysis model that can accurately classify customer reviews into positive, negative, or neutral sentiment categories. The model aims to automate the process of sentiment classification, enabling businesses to quickly understand customer sentiment at scale.
 To achieve this, we implemented the following steps:
 1. Data Preparation: We split the dataset into training and testing sets to evaluate the performance of our model. We used X% of the data for training and Y% for testing.
-2. Feature Extraction: We applied various techniques such as bag-of-words, TF-IDF, or word embeddings to convert the text reviews into numerical features that can be used as input to our machine learning algorithms.
+2. Feature Extraction: We applied various techniques such as bag-of-words, count vectorizer 
 3. Model Selection: We experimented with different algorithms, such as logistic regression, support vector machines, or neural networks, to determine the best-performing model for sentiment analysis. We evaluated the models using appropriate evaluation metrics such as accuracy, precision, recall, and F1 score.
 4.Model Training and Evaluation: We trained the selected model on the training data and evaluated its performance on the testing data. We fine-tuned the model parameters to optimize its performance and prevent overfitting.
 5. Model Deployment: Once we achieved satisfactory performance, we deployed the sentiment analysis model to make predictions on new, unseen customer reviews. We integrated the model into a user-friendly interface or API that can be accessed by stakeholders for real-time sentiment analysis.
@@ -50,28 +50,24 @@ Data Preprocessing: We performed data cleaning and preprocessing steps such as r
 Vectorization Techniques:
 a. Bag-of-Words (CountVectorizer): We used sklearn's CountVectorizer to convert the text data into a numerical representation, capturing the frequency of words in each document. This approach creates a matrix of word counts.
 
-b. Term Frequency-Inverse Document Frequency (TF-IDF Vectorizer): We applied sklearn's TfidfVectorizer to calculate the TF-IDF scores for each term in the document corpus. TF-IDF measures the importance of a term in a document relative to the entire corpus by considering both term frequency and inverse document frequency. This approach helps to highlight the significance of words that are more unique to specific documents.
-
-c. Classification Models: We trained and evaluated several classification models using the vectorized data, including:
+b. Classification Models: We trained and evaluated several classification models using the vectorized data, including:
 
 Multinomial Naive Bayes
-Random Forest Classifier
+XGBoost 
 Logistic Regression Classifier
-d. Model Evaluation: For each model, we employed cross-validation techniques to assess its performance. We measured key evaluation metrics such as accuracy, precision, recall, and F1 score to evaluate the model's ability to correctly predict sentiment.
+c. Model Evaluation: For each model, we employed cross-validation techniques to assess its performance. We measured key evaluation metrics such as accuracy, precision, recall, and F1 score to evaluate the model's ability to correctly predict sentiment.
 
-e. Hyperparameter Tuning: To optimize the models, we conducted hyperparameter tuning using techniques like grid search. This process involved systematically testing different combinations of model parameters to find the optimal configuration that yielded the best performance.
+d. Handling Class Imbalance: As sentiment analysis datasets often suffer from class imbalance, we addressed this issue by employing techniques such as oversampling the minority class using Synthetic Minority Random Under-sampling.
 
-f. Handling Class Imbalance: As sentiment analysis datasets often suffer from class imbalance, we addressed this issue by employing techniques such as oversampling the minority class using Synthetic Minority Over-sampling Technique (SMOTE) and undersampling the majority class using Random Under-sampling.
+e. resample of XGBoost (add this from notebook)
 
-g. Qualitative Analysis: In addition to quantitative evaluation, we performed a qualitative analysis by examining misclassified instances to gain insights into the model's strengths and weaknesses. This analysis helped identify patterns or areas of improvement.
 
 # Evaluation
 To evaluate the performance of our NLP sentiment analysis model, we conducted thorough testing and analysis using various evaluation metrics. The following evaluation results provide insights into the effectiveness of our approach:
 * Accuracy: Our sentiment analysis model achieved an overall accuracy of yetu%, indicating that it correctly classified yetu% of the sentiment labels in the test dataset.
-* Precision and Recall: The precision score for positive sentiment classification was yetu%, meaning that yetu% of the predicted positive sentiments were actually positive. The recall score for positive sentiment was 82%, indicating that our model identified yetu% of the actual positive sentiments. For negative sentiment classification, we achieved a precision score of yetu% and a recall score of yetu%.
-* F1 Score: The F1 score, which considers both precision and recall, was yetu% for positive sentiment and yetu% for negative sentiment, providing an overall measure of the model's performance.
-* Confusion Matrix: The confusion matrix below illustrates the distribution of predicted sentiment labels compared to the actual sentiment labels in the test dataset:
-## confusion matrix image (add any confision matrix image)
+
+Image (ANY eda Image)
+
 # Conclusion
 
 # Recommendations
@@ -80,6 +76,11 @@ To evaluate the performance of our NLP sentiment analysis model, we conducted th
 # Nextsteps
 1. In our future work, we plan to explore advanced techniques such as incorporating attention mechanisms, using ensemble methods to further enhance the model's performance by incorporating domain-specific and fine-tuning the model on industry-specific datasets could improve its accuracy and adaptability.
 2. By considering these evaluation metrics, addressing limitations, and planning for future improvements, we aim to develop a robust NLP sentiment analysis solution that effectively captures sentiment in text data.
+3. Looking for a better dataset 
+
+
+# Limitaion
+
 
 # Installations
 To install and run this project, follow these steps:
