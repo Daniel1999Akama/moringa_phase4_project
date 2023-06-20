@@ -27,12 +27,12 @@ To install and run this project, follow these steps:
 feel free  to visit this jupyternotebook and contact below emails
 
 
-"""Rosemary Nyakio: @nyakio19roseary@gmail.com
+Rosemary Nyakio: @nyakio19roseary@gmail.com
 Maureen Anduuru: @moesaitia@gmail.com
 Daniel Akama:
 Leah Katiwa:
 Lynne mutwiri: @mutwirilyneek@gmail.com
-Brian Nderu: @briannga00@gmail.com"""
+Brian Nderu: @briannga00@gmail.com
 
 
 #### Repository Structure: 
