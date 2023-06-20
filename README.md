@@ -83,7 +83,7 @@ Rosemary Nyakio: @nyakio19roseary@gmail.com
 
 Maureen Anduuru: @moesaitia@gmail.com
 
-Daniel Akama:
+Daniel Akama: @danielakama23@gmail.com
 
 Leah Katiwa: @katiwaleah26@gmail.com
 
