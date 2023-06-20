@@ -22,6 +22,7 @@ Lynne mutwiri
 Brian Nderu
 
 # Repository Structure:
+
 ├── .gitignore                                             <- gitignore 
 ├── CONTRIBUTING                                           <- Conribution logs
 ├── LISENCE.md                                             <- LICENCE of the project
