@@ -75,8 +75,9 @@ To evaluate the performance of our NLP sentiment analysis model, we conducted th
 2. our MultinomialNb multiclass model achieved an overall accuracy of
 3. our XGboost multiclass model achieved an overall accuracy of 
 
-Image 
+
 ![image](https://github.com/Daniel1999Akama/moringa_phase4_project/assets/96378206/158e9d2a-3fe3-4f45-ab69-3831220f3aae)
+
 No emotion towards brand had the highest value count 
 
 # Conclusion
