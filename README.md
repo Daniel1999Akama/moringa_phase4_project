@@ -9,4 +9,14 @@ The goal of this project aims to develop a sentimental analysis model specifical
 # Data understanding
 
 # Installations
+Python language
+jupyter notebook
+vs code
+
 # Collaborators
+Rosemary Nyakio
+Maureen Anduuru
+Daniel Akama
+Leah Katiwa
+Lynne mutwiri
+Brian Nderu
