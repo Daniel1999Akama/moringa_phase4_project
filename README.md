@@ -7,6 +7,7 @@
 - Project Overview 
 - Problem Statement 
 - Data Understanding
+- Methodology
 - Evaluation
 - Conclusion
 - Recommendation
@@ -43,6 +44,26 @@ To achieve this, we implemented the following steps:
 By undertaking this project, we aim to provide businesses with valuable insights into customer sentiment, enabling them to make data-driven decisions, improve customer satisfaction, and enhance their overall brand reputation.
 Please note that the above example is just a brief illustration, and you should customize it according to your specific project requirements and scope.
 
+Methodology
+Data Preprocessing: We performed data cleaning and preprocessing steps such as removing special characters, stopwords, and performing tokenization. We also applied lemmatization using NLTK's lemmatizer to reduce words to their common root form.
+
+Vectorization Techniques:
+a. Bag-of-Words (CountVectorizer): We used sklearn's CountVectorizer to convert the text data into a numerical representation, capturing the frequency of words in each document. This approach creates a matrix of word counts.
+
+b. Term Frequency-Inverse Document Frequency (TF-IDF Vectorizer): We applied sklearn's TfidfVectorizer to calculate the TF-IDF scores for each term in the document corpus. TF-IDF measures the importance of a term in a document relative to the entire corpus by considering both term frequency and inverse document frequency. This approach helps to highlight the significance of words that are more unique to specific documents.
+
+c. Classification Models: We trained and evaluated several classification models using the vectorized data, including:
+
+Multinomial Naive Bayes
+Random Forest Classifier
+Logistic Regression Classifier
+d. Model Evaluation: For each model, we employed cross-validation techniques to assess its performance. We measured key evaluation metrics such as accuracy, precision, recall, and F1 score to evaluate the model's ability to correctly predict sentiment.
+
+e. Hyperparameter Tuning: To optimize the models, we conducted hyperparameter tuning using techniques like grid search. This process involved systematically testing different combinations of model parameters to find the optimal configuration that yielded the best performance.
+
+f. Handling Class Imbalance: As sentiment analysis datasets often suffer from class imbalance, we addressed this issue by employing techniques such as oversampling the minority class using Synthetic Minority Over-sampling Technique (SMOTE) and undersampling the majority class using Random Under-sampling.
+
+g. Qualitative Analysis: In addition to quantitative evaluation, we performed a qualitative analysis by examining misclassified instances to gain insights into the model's strengths and weaknesses. This analysis helped identify patterns or areas of improvement.
 
 # Evaluation
 To evaluate the performance of our NLP sentiment analysis model, we conducted thorough testing and analysis using various evaluation metrics. The following evaluation results provide insights into the effectiveness of our approach:
