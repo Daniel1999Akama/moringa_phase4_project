@@ -22,11 +22,6 @@ Lynne mutwiri
 Brian Nderu
 
 #### Repository Structure: 
-- .gitignore
-- CONTRIBUTING
-- LISENCE.md
-
-
 
 ├── .gitignore                                             <- gitignore 
 
@@ -34,7 +29,8 @@ Brian Nderu
 
 ├── LISENCE.md                                             <- LICENCE of the project
 
-└── Phase4_project.ipynb                                   <- Narrative documentation of analysis in Jupyter notebook
+|── Phase4_project.ipynb                                   <- Narrative documentation of analysis in Jupyter notebook
+
 
 ├── data                                                   <- Data folder location of our study
 
