@@ -24,12 +24,13 @@ To install and run this project, follow these steps:
     This is the default URL where the application will be running locally. 
 
 # Collaborators
-Rosemary Nyakio
-Maureen Anduuru
-Daniel Akama
-Leah Katiwa
-Lynne mutwiri
-Brian Nderu
+Rosemary Nyakio: @nyakio19roseary@gmail.com
+Maureen Anduuru: @moesaitia@gmail.com
+Daniel Akama:
+Leah Katiwa:
+Lynne mutwiri: @mutwirilyneek@gmail.com
+Brian Nderu: @briannga00@gmail.com
+
 
 #### Repository Structure: 
 
