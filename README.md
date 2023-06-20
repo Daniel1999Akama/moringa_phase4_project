@@ -33,7 +33,7 @@ Maureen Anduuru: @moesaitia@gmail.com
 
 Daniel Akama:
 
-Leah Katiwa:
+Leah Katiwa: @katiwaleah26@gmail.com
 
 Lynne mutwiri: @mutwirilyneek@gmail.com
 
