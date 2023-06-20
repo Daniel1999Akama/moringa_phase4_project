@@ -15,17 +15,33 @@
 - Collaborators
 - Repository Structure 
 
-# Project overview
+# Business understanding
 In today’s digital age, social media platforms such as Twitter have become powerful sources of real-time customer feedback and opinions. Understanding the sentiment expressed by customers toward specific brands and products is essential for businesses to make informed decisions, enhance customer satisfaction, and maintain a positive brand reputation. 
 
 The goal of this project aims to develop a sentimental analysis model specifically tailored to analyze Twitter data related to Google, Apple, and other products. 
 
-# Problem Statement
+# Business Problem Statement
 
 As a consulting firm, Twitter has assigned us the task of building a model that can rate the sentiment of a Tweet based on its content  that can correctly categorize Twitter sentiment about Apple and Google products into positive, negative, or neutral categories and  gain valuable insights into public perception, that will be used for informed decision-making in business strategies and customer satisfaction enterprise
 
 
 # Data understanding
+In this project, we analyze sentiment using a dataset of customer reviews collected from. The dataset contains a collection of text reviews and corresponding sentiment labels indicating whether the sentiment expressed in the review is positive, negative, or neutral. The dataset consists of [Xtuconfirm] number of samples and [Ytuconfirm] number of features.
+To gain a better understanding of the data, we performed the following steps:
+Data Collection: We collected the customer data world where there is a data set from from twitter platforms and review aggregators. The reviews were selected based on relevance to our analysis.
+Data Preprocessing: We cleaned the raw text data by removing any irrelevant information, such as HTML tags, URLs, and special characters. We also performed tokenization, stop word removal, and stemming/lemmatization to normalize the text.
+Exploratory Data Analysis (EDA): We conducted an in-depth analysis of the dataset to uncover patterns, trends, and insights. This included analyzing the distribution of sentiment labels, examining the most frequent words, and exploring any relationships between sentiment and other variables.
+Data Visualization: We used various visualization techniques, such as bar plots, and sentiment distribution charts, to visually represent the data and gain further insights into the sentiment patterns.
+## Project Overview
+The objective of this project is to develop a sentiment analysis model that can accurately classify customer reviews into positive, negative, or neutral sentiment categories. The model aims to automate the process of sentiment classification, enabling businesses to quickly understand customer sentiment at scale.
+To achieve this, we implemented the following steps:
+1. Data Preparation: We split the dataset into training and testing sets to evaluate the performance of our model. We used X% of the data for training and Y% for testing.
+2. Feature Extraction: We applied various techniques such as bag-of-words, TF-IDF, or word embeddings to convert the text reviews into numerical features that can be used as input to our machine learning algorithms.
+3. Model Selection: We experimented with different algorithms, such as logistic regression, support vector machines, or neural networks, to determine the best-performing model for sentiment analysis. We evaluated the models using appropriate evaluation metrics such as accuracy, precision, recall, and F1 score.
+4.Model Training and Evaluation: We trained the selected model on the training data and evaluated its performance on the testing data. We fine-tuned the model parameters to optimize its performance and prevent overfitting.
+5. Model Deployment: Once we achieved satisfactory performance, we deployed the sentiment analysis model to make predictions on new, unseen customer reviews. We integrated the model into a user-friendly interface or API that can be accessed by stakeholders for real-time sentiment analysis.
+By undertaking this project, we aim to provide businesses with valuable insights into customer sentiment, enabling them to make data-driven decisions, improve customer satisfaction, and enhance their overall brand reputation.
+Please note that the above example is just a brief illustration, and you should customize it according to your specific project requirements and scope.
 
 
 # Evaluation
