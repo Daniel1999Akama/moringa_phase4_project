@@ -20,3 +20,11 @@ Daniel Akama
 Leah Katiwa
 Lynne mutwiri
 Brian Nderu
+
+# Repository Structure:
+├── .gitignore                                             <- gitignore 
+├── CONTRIBUTING                                           <- Conribution logs
+├── LISENCE.md                                             <- LICENCE of the project
+└── Phase4_project.ipynb                                   <- Narrative documentation of analysis in Jupyter notebook
+├── data                                                   <- Data folder location of our study
+├── README.md                                              <- The top-level README for reviewers of this project       
