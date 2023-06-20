@@ -22,8 +22,11 @@ Lynne mutwiri
 Brian Nderu
 
 #### Repository Structure: 
+- .gitignore
+- CONTRIBUTING
+- LISENCE.md
 
-'''
+
 
 ├── .gitignore                                             <- gitignore 
 
@@ -37,5 +40,5 @@ Brian Nderu
 
 ├── README.md                                              <- The top-level README for reviewers of this project
 
-'''
+
 
