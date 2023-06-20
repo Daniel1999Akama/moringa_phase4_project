@@ -24,6 +24,7 @@ Brian Nderu
 #### Repository Structure: 
 
 '''
+
 ├── .gitignore                                             <- gitignore 
 
 ├── CONTRIBUTING                                           <- Conribution logs
@@ -35,5 +36,6 @@ Brian Nderu
 ├── data                                                   <- Data folder location of our study
 
 ├── README.md                                              <- The top-level README for reviewers of this project
+
 '''
 
