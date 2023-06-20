@@ -23,7 +23,7 @@ The goal of this project aims to develop a sentimental analysis model specifical
 
 # Business Problem Statement
 
-As a consulting firm, Twitter has assigned us the task of building a model that can rate the sentiment of a Tweet based on its content  that can correctly categorize Twitter sentiment about Apple and Google products into positive, negative, or neutral categories and  gain valuable insights into public perception, that will be used for informed decision-making in business strategies and customer satisfaction enterprise
+As a consulting firm, Twitter has assigned us the task of building a model that can rate the sentiment of a Tweet based on its content  that can correctly categorize Twitter sentiment about Apple and Google products into positive, negative, or neutral categories and  gain valuable insights into public perception, that will be used for informed decision-making in business strategies and customer satisfaction enterprise.
 
 
 # Data understanding
