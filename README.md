@@ -24,6 +24,9 @@ To install and run this project, follow these steps:
     This is the default URL where the application will be running locally. 
 
 # Collaborators
+feel free  to visit this jupyternotebook and contact below emails
+
+
 Rosemary Nyakio: @nyakio19roseary@gmail.com
 Maureen Anduuru: @moesaitia@gmail.com
 Daniel Akama:
