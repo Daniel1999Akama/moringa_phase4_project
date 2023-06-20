@@ -75,8 +75,11 @@ To evaluate the performance of our NLP sentiment analysis model, we conducted th
 Image (ANY eda Image)
 
 # Conclusion
+In summary, our NLP model for Twitter sentiment analysis of Apple and Google products provides valuable insights for businesses. It categorizes sentiments as positive, negative, or neutral, helping understand public perception, monitor customer satisfaction, and make informed business decisions.
 
 # Recommendations
+Accuracy: Measure the overall correctness of your model's predictions.
+Confusion Matrix: Analyze the distribution of correctly and incorrectly classified instances across different sentiment classes to identify specific errors.
 
 
 # Nextsteps
