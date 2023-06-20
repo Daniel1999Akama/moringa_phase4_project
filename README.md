@@ -3,9 +3,17 @@
 
 ## Table of Contents
 
-- [Project Name](#Sentimental Analysis )
-- [Over view](#Project Overview )
-- 
+- Sentimental Analysis 
+- Project Overview 
+- Problem Statement 
+- Data Understanding
+- Evaluation
+- Conclusion
+- Recommendation
+- Next Steps
+- Installation
+- Collaborators
+- Repository Structure 
 
 # Project overview
 In today’s digital age, social media platforms such as Twitter have become powerful sources of real-time customer feedback and opinions. Understanding the sentiment expressed by customers toward specific brands and products is essential for businesses to make informed decisions, enhance customer satisfaction, and maintain a positive brand reputation. 
