@@ -27,7 +27,7 @@ As a consulting firm, Twitter has assigned us the task of building a model that 
 
 
 # Data understanding
-In this project, we analyze sentiment using a dataset of customer reviews collected from. The dataset contains a collection of text reviews and corresponding sentiment labels indicating whether the sentiment expressed in the review is positive, negative, or neutral. The dataset consists of [Xtuconfirm] number of samples and [Ytuconfirm] number of features.
+In this project, we analyze sentiment using a dataset of customer reviews collected from Twitter. The dataset contains a collection of text reviews and corresponding sentiment labels indicating whether the sentiment expressed in the review is positive, negative, or neutral. The dataset consists of [] number of samples and [] number of features.
 
 To gain a better understanding of the data, we performed the following steps:
 
