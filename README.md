@@ -23,18 +23,17 @@ Brian Nderu
 
 #### Repository Structure: 
 
-├── .gitignore                                             <- gitignore 
+├── .gitignore                                              
 
-├── CONTRIBUTING                                           <- Conribution logs
+├── CONTRIBUTING                                            
 
-├── LISENCE.md                                             <- LICENCE of the project
+├── LISENCE.md                                             
 
-|── Phase4_project.ipynb                                   <- Narrative documentation of analysis in Jupyter notebook
+|── Phase4_project.ipynb                                   
 
+├── data                                                   
 
-├── data                                                   <- Data folder location of our study
-
-├── README.md                                              <- The top-level README for reviewers of this project
+├── README.md                                             
 
 
 
