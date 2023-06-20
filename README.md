@@ -23,7 +23,7 @@ To install and run this project, follow these steps:
 6. Open your web browser and access the application at http://localhost:5000.
     This is the default URL where the application will be running locally. 
 
-# Collaborators
+### Collaborators
 feel free  to visit this jupyternotebook and contact below emails
 
 
@@ -41,7 +41,7 @@ Brian Nderu: @briannga00@gmail.com
 
 
 
-#### Repository Structure: 
+### Repository Structure: 
 
 ├── .gitignore                                              
 
