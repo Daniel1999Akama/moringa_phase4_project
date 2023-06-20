@@ -75,7 +75,9 @@ To evaluate the performance of our NLP sentiment analysis model, we conducted th
 Image (ANY eda Image)
 
 # Conclusion
-In summary, our NLP model for Twitter sentiment analysis of Apple and Google products provides valuable insights for businesses. It categorizes sentiments as positive, negative, or neutral, helping understand public perception, monitor customer satisfaction, and make informed business decisions.
+In summary, our NLP model for Twitter sentiment analysis of Apple and Google products provides valuable insights for businesses. It categorizes sentiments as positive, negative, or neutral, helping understand public perception, monitor customer satisfaction, and make informed business decisions.The binary logisitc regression model performs best and is fit to be deployed.
+
+​
 
 # Recommendations
 
