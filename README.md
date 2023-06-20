@@ -3,7 +3,7 @@
 
 ## Table of Contents
 
-- Sentimental Analysis 
+- Sentimental Analysis
 - Project Overview 
 - Problem Statement 
 - Data Understanding
