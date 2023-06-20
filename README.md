@@ -8,6 +8,15 @@ The goal of this project aims to develop a sentimental analysis model specifical
 
 # Data understanding
 
+
+# Evaluation
+
+# Conclusion
+
+# Recommendations
+
+# Nextsteps
+
 # Installations
 To install and run this project, follow these steps:
 1. Clone the repository to your local machine using the following command:
