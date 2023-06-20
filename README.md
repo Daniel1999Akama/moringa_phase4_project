@@ -28,11 +28,17 @@ As a consulting firm, Twitter has assigned us the task of building a model that 
 
 # Data understanding
 In this project, we analyze sentiment using a dataset of customer reviews collected from. The dataset contains a collection of text reviews and corresponding sentiment labels indicating whether the sentiment expressed in the review is positive, negative, or neutral. The dataset consists of [Xtuconfirm] number of samples and [Ytuconfirm] number of features.
+
 To gain a better understanding of the data, we performed the following steps:
+
 Data Collection: We collected the customer data world where there is a data set from from twitter platforms and review aggregators. The reviews were selected based on relevance to our analysis.
+
 Data Preprocessing: We cleaned the raw text data by removing any irrelevant information, such as HTML tags, URLs, and special characters. We also performed tokenization, stop word removal, and stemming/lemmatization to normalize the text.
+
 Exploratory Data Analysis (EDA): We conducted an in-depth analysis of the dataset to uncover patterns, trends, and insights. This included analyzing the distribution of sentiment labels, examining the most frequent words, and exploring any relationships between sentiment and other variables.
+
 Data Visualization: We used various visualization techniques, such as bar plots, and sentiment distribution charts, to visually represent the data and gain further insights into the sentiment patterns.
+
 ## Project Overview
 The objective of this project is to develop a sentiment analysis model that can accurately classify customer reviews into positive, negative, or neutral sentiment categories. The model aims to automate the process of sentiment classification, enabling businesses to quickly understand customer sentiment at scale.
 To achieve this, we implemented the following steps:
