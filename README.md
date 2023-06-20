@@ -6,6 +6,11 @@ In today’s digital age, social media platforms such as Twitter have become pow
 
 The goal of this project aims to develop a sentimental analysis model specifically tailored to analyze Twitter data related to Google, Apple, and other products. 
 
+# Problem Statement
+
+As a consulting firm, Twitter has assigned us the task of building a model that can rate the sentiment of a Tweet based on its content  that can correctly categorize Twitter sentiment about Apple and Google products into positive, negative, or neutral categories and  gain valuable insights into public perception, that will be used for informed decision-making in business strategies and customer satisfaction enterprise
+
+
 # Data understanding
 
 
