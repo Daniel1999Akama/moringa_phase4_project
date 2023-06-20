@@ -11,7 +11,7 @@ The goal of this project aims to develop a sentimental analysis model specifical
 # Installations
 To install and run this project, follow these steps:
 1. Clone the repository to your local machine using the following command:
-    - git clone https://github.com/your-username/your-repository.git
+    - git clone https://github.com/Daniel1999Akama/moringa_phase4_project.git
 2. Navigate to the project's root directory:
     - cd your-repository
 3. Install the project dependencies(For this project we worked with Jupyter notebook, however it can also run on vscode or Google collab:
