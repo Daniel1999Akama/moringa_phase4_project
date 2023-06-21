@@ -63,10 +63,7 @@ b. Classification Models: We trained and evaluated several classification models
 
 c. Model Evaluation: For each model, we employed cross-validation techniques to assess its performance. We measured key evaluation metrics such as accuracy, precision, recall, and F1 score to evaluate the model's ability to correctly predict sentiment.
 
-d. Handling Class Imbalance: As sentiment analysis datasets often suffer from class imbalance, we addressed this issue by employing techniques such as oversampling the minority class using Synthetic Minority Random Under-sampling
-
-e. resample of XGBoost (add this from notebook)
-
+d. Handling Class Imbalance: we tried to address this issue using synthetic Minority random Undersampling but didnt improve the accuracy of the XGBoost model.
 
 # Evaluation
 To evaluate the performance of our NLP sentiment analysis model, we conducted thorough testing and analysis using various evaluation metrics. The following evaluation results provide insights into the effectiveness of our approach:
