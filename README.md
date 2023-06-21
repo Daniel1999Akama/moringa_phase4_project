@@ -70,8 +70,8 @@ d. Handling Class Imbalance: we tried to address this issue using synthetic Mino
 To evaluate the performance of our NLP sentiment analysis model, we conducted thorough testing and analysis using various evaluation metrics. The following evaluation results provide insights into the effectiveness of our approach:
 * Accuracy:
 1. Our binary sentiment analysis model achieved an overall accuracy of 90% which surpused our trget of achieving 85%.
-2. our MultinomialNb multiclass model achieved an overall accuracy of
-3. our XGboost multiclass model achieved an overall accuracy of 
+2. our MultinomialNb multiclass model achieved an overall accuracy of 65%
+3. our XGboost multiclass model achieved an overall accuracy of 68%
 
 
 ![image](https://github.com/Daniel1999Akama/moringa_phase4_project/assets/96378206/158e9d2a-3fe3-4f45-ab69-3831220f3aae)
