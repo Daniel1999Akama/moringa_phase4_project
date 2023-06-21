@@ -44,9 +44,9 @@ The objective of this project is to develop a sentiment analysis model that can 
 To achieve this, we implemented the following steps:
 1. Data Preparation: We split the dataset into training and testing sets to evaluate the performance of our model. We used X% of the data for training and Y% for testing.
 2. Feature Extraction: We applied various techniques such as bag-of-words, count vectorizer 
-3. Model Selection: We experimented with different algorithms, such as logistic regression, support vector machines, or neural networks, to determine the best-performing model for sentiment analysis. We evaluated the models using appropriate evaluation metrics such as accuracy, precision, recall, and F1 score.
-4.Model Training and Evaluation: We trained the selected model on the training data and evaluated its performance on the testing data. We fine-tuned the model parameters to optimize its performance and prevent overfitting.
-5. Model Deployment: Once we achieved satisfactory performance, we deployed the sentiment analysis model to make predictions on new, unseen customer reviews. We integrated the model into a user-friendly interface or API that can be accessed by stakeholders for real-time sentiment analysis.
+3. Model Selection: We experimented with different algorithms, such as logistic regression. We evaluated the models using appropriate evaluation metrics such as accuracy.
+4.Model Training and Evaluation: We trained the selected model on the training data and evaluated its performance on the testing data.
+5. Model Deployment: Once we achieved satisfactory performance, we deployed the sentiment analysis model to make predictions on new, unseen customer reviews. using streamlit library.
 By undertaking this project, we aim to provide businesses with valuable insights into customer sentiment, enabling them to make data-driven decisions, improve customer satisfaction, and enhance their overall brand reputation.
 Please note that the above example is just a brief illustration, and you should customize it according to your specific project requirements and scope.
 
@@ -59,9 +59,10 @@ a. Bag-of-Words (CountVectorizer): We used sklearn's CountVectorizer to convert 
 b. Classification Models: We trained and evaluated several classification models using the vectorized data, including:
 
 1.Logistic Regression Classifier for the binary classifier model
+
 2.Multinomial Naive Bayes and XGBoost model for the multiclass classification model 
 
-c. Model Evaluation: For each model, we employed cross-validation techniques to assess its performance. We measured key evaluation metrics such as accuracy, precision, recall, and F1 score to evaluate the model's ability to correctly predict sentiment.
+c. Model Evaluation: For each model, we employed  accuracy to evaluate the model's ability to correctly predict sentiment.
 
 d. Handling Class Imbalance: we tried to address this issue using synthetic Minority random Undersampling but didnt improve the accuracy of the XGBoost model.
 
