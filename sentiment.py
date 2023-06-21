@@ -8,9 +8,9 @@ from nltk.corpus import stopwords
 from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
 import re
 import nltk
-nltk.download('punkt')
-nltk.download('stopwords')
-nltk.download('wordnet')
+#nltk.download('punkt')
+#nltk.download('stopwords')
+#nltk.download('wordnet')
 from nltk.stem import WordNetLemmatizer
 import contractions
 import pandas as pd
