@@ -14,6 +14,7 @@ nltk.download('wordnet')
 from nltk.stem import WordNetLemmatizer
 import contractions
 import pandas as pd
+import xgboost
 
 # preprocessing functions
 
