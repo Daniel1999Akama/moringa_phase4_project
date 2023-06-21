@@ -90,11 +90,11 @@ NLP is a difficult task to model accurately.
 Most tweets were directed to None brand category. This may indicate that customers were not engaging with the brand.
 
 # Recommendations
-we recommend that there be more customer engagement
-probably check on these area;
-*Churn ratio,
-*Socials media influencers through brand or product endorsment   
-*Customer feedback
+We recommend that there be more customer engagement.
+Probably check on this areas;
+Churn ratio - rate at which customers discontinue their relationship with a product company within a given time period
+Social media influencers through brand or product endorsement
+Customer feedback - The brands can introduce a rating system to accurately capture the sentiments of their customers
 
 # Nextsteps
 1. In our future work, we plan to explore advanced techniques such as incorporating attention mechanisms, using ensemble methods to further enhance the model's performance by incorporating domain-specific and fine-tuning the model on industry-specific datasets could improve its accuracy and adaptability.
