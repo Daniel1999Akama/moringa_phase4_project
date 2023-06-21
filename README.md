@@ -83,7 +83,7 @@ No emotion towards brand had the highest value count
 # Conclusion
 In summary, our NLP model for Twitter sentiment analysis of Apple and Google products provides valuable insights for businesses. It categorizes sentiments as positive, negative, or neutral, helping understand public perception, monitor customer satisfaction, and make informed business decisions.The binary logisitc regression model performs best and is fit to be deployed.
 ​
-# Recommendations*
+# Recommendations
 
 Overall, this project demonstrates the potential of sentiment analysis in extracting valuable insights from textual data. By understanding the sentiment expressed in text, businesses and organizations can make informed decisions, gain customer feedback, and enhance their understanding of user opinions and preferences.
 
