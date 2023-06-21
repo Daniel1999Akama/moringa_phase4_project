@@ -103,6 +103,8 @@ Customer feedback - The brands can introduce a rating system to accurately captu
 
 
 # Limitaion
+Class imbalance issues
+The dataset had few rows
 
 
 # Installations
