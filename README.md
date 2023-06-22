@@ -152,7 +152,9 @@ Brian Nderu: @briannga00@gmail.com
 
 ├── README.md   
 
+Web app link:
 https://moringaphase4project.streamlit.app/
 
-
+## Project status
+The current version of the project is finished and ready for use. Improvements will be made later.
 
