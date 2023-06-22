@@ -132,7 +132,7 @@ Daniel Akama: @danielakama23@gmail.com
 
 Leah Katiwa: @katiwaleah26@gmail.com
 
-Lynne mutwiri: @mutwirilynnek@gmail.com
+Lynne Mutwiri: @mutwirilynnek@gmail.com
 
 Brian Nderu: @briannga00@gmail.com
 
